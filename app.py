@@ -7,14 +7,14 @@ def get_joke():
     return joke
 
 def main():
-    # Définissez le nombre de blagues à afficher
+    # Définissez le nombre de blagues nules à afficher
     num_jokes = 5
 
-    # Boucle pour obtenir et afficher plusieurs blagues
+    # Boucle pour obtenir et afficher plusieurs blagues nules
     for _ in range(num_jokes):
         joke = get_joke()
         print(f"Joke: {joke}")
-        print("-" * 30)  # Ligne de séparation entre les blagues
+        print("-" * 30)  # Ligne de séparation entre les blagues nules
 
 if __name__ == "__main__":
     main()
